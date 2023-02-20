@@ -1,0 +1,19 @@
+{
+  "name": "qap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index --prefix Backend",
+    "index": "node index --prefix Backend",
+    "client": "npm start --prefix client",
+    "dual": "concurrently \"npm run index\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d"
+  },
+  "author": "InfobydSoftware",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

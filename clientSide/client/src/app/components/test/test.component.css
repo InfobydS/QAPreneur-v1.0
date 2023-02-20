@@ -1,0 +1,44 @@
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    height: auto;
+    /* margin-bottom: 30px; */
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+li .card:hover {
+    border: 1px solid blue;
+}
+
+ol {
+    padding: 0;
+}
+
+.header{
+    color:rgb(58 53 120);
+    font-size: 18px;
+}
+
+.subHeader{
+    color:rgb(58 53 120);
+    align-items: center;
+}
+
+.questionOfQuestion{
+    color:rgb(249 151 78);
+    font-size: 15px;
+}
+
+.congo{
+    color: green;
+}
+
+.subResult{
+     color:rgb(58 53 120);;
+}
