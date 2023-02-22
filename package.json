@@ -8,7 +8,7 @@
     "server": "cd backend && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"cd ./clientSide && npm run client\" \"npm run server\"",
-    "start": "npm run dev",
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
