@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   
+  
   "scripts": {
     "client": "ng serve --prefix /clientSide",
     "server": "cd backend && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"cd ./clientSide && npm run client\" \"npm run server\"",
-    "start": "cd backend && npm start"
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
