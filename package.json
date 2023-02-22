@@ -2,7 +2,7 @@
   "name": "infoqapreneur",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js --prefix /backend",
+  "main": "index.js --prefix ./backend",
   "scripts": {
     "client": "ng serve --prefix /clientSide",
     "server": "cd backend && npm start",
